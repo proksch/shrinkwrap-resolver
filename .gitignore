@@ -6,6 +6,9 @@ target
 *.iml
 .gradle
 build
+bin
+build-resources
+**/*.swp
 
 atlassian-ide-plugin.xml
 
