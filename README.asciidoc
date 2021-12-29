@@ -1,3 +1,6 @@
+[NOTE]
+==== Please note, this is only a fork of `shrinkwrap/resolver`, which solely affects the `maven/impl-maven` project. Please consult the README.md in that subfolder for details. ====
+
 = ShrinkWrap Resolvers image:https://travis-ci.org/shrinkwrap/resolver.svg["Build Status", link="https://travis-ci.org/shrinkwrap/resolver"]
 :toc:
 
