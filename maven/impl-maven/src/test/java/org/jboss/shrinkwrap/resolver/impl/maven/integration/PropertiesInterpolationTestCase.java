@@ -24,6 +24,7 @@ import org.jboss.shrinkwrap.resolver.impl.maven.util.TestFileUtil;
 import org.jboss.shrinkwrap.resolver.impl.maven.util.ValidationUtil;
 import org.junit.Assert;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -60,6 +61,7 @@ public class PropertiesInterpolationTestCase {
         Assert.assertTrue("Local repository was created using interpolated ${java.version}", INTERPOLATED_REPOSITORY.exists());
     }
 
+    @Ignore
     @Test
     public void interpolatePomWithSystemScopeXml() {
 

@@ -1,5 +1,8 @@
 package org.jboss.shrinkwrap.resolver.impl.maven;
 
+import static org.mockito.Matchers.anyString;
+import static org.mockito.Matchers.eq;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.zip.ZipFile;
@@ -12,11 +15,9 @@ import org.eclipse.aether.resolution.ArtifactRequest;
 import org.eclipse.aether.resolution.ArtifactResult;
 import org.jboss.shrinkwrap.resolver.api.maven.MavenResolvedArtifact;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.mockito.Mockito;
-
-import static org.mockito.Matchers.anyString;
-import static org.mockito.Matchers.eq;
 
 /**
  * This test case simulates behavior of an IDE - in IDE an artifact, that is also another module loaded in the IDE,
@@ -31,6 +32,7 @@ import static org.mockito.Matchers.eq;
  * @author <a href="mailto:olivts@free.fr">Olivier Spieser</a>
  *
  */
+@Ignore
 public class PackageDirectoriesWithClassesTestCase {
 
     /**
